@@ -13,5 +13,33 @@
   <body>
     <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
+    <form>
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label for="surname">Surname:</label>
+        <input type="text"><br>
+
+        <label for="name">Name:</label>
+        <input type="text"><br>
+
+        <label for="old">How old are You?</label>
+        <input
+          type="text"
+          value="12"
+          min="1"
+          max="100"
+        ><br>
+
+        <label for="dateOfBirth">Full date of birth</label>
+        <input
+          type="date"
+          placeholder="dd/mm/yyyy"
+        ><br>
+
+        <label for="term">I accept the term of the agreement</label>
+        <input type="checkbox"><br>
+      </fieldset>
+    </form>
   </body>
 </html>

@@ -1,7 +1,16 @@
+body {
+  display: block;
+}
+
 .group {
   margin-bottom: 20px;
 }
 
 .input {
+  display: block;
   margin: 10px 0;
+}
+
+.input:last-child {
+  margin-bottom: 0;
 }
